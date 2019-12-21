@@ -1,0 +1,13 @@
+[requires]
+ffmpeg/4.1@1602/test
+libx264/0.1@1602/stable
+libfdk_aac/0.1.6@1602/stable
+
+[generators]
+cmake_multi
+
+[options]
+ffmpeg:shared=False
+libx264:shared=False
+libfdk_aac:shared=False
+
